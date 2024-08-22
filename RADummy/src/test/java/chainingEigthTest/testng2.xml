@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+        <test  name="test1">
+        <classes>
+            <class name="chainingEigthTest.createUser">
+                <methods>
+                    <include name="testCreateUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <classes>
+
+            <class name="chainingEigthTest.getUser">
+                <methods>
+                    <include name="testGetUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test  name="test3">
+        <classes>
+
+            <class name="chainingEigthTest.updateUser">
+                <methods>
+                    <include name="testUpdateUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="test4">
+        <classes>
+
+            <class name="chainingEigthTest.deleteUser">
+                <methods>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
